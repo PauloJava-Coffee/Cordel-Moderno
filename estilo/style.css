@@ -28,6 +28,7 @@ header{
 }
 header > h1{
     padding-top: 50px;
+    margin-bottom: 2vh;
     /**text-transform: uppercase;**/
     font-variant:small-caps;
     font-size: 5vw;
@@ -44,11 +45,7 @@ header a:hover, footer a:hover{
     text-decoration: underline;
     
 }
-main{
-    max-width: 80vw;
-    background-color: aliceblue;
-    margin: auto;
-}
+
 section{
     
     padding-top: 10vh;
@@ -99,4 +96,13 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 0.8em;
+}
+footer > h2{
+    font-variant: small-caps ;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+footer > p{
+    
 }
