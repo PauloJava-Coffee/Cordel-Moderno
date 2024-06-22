@@ -21,20 +21,23 @@ html, body{
     font-family: var(--fonte1);
 }
 header{
-    background-color: black;
+   background-color: black;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
+    border-radius: 4px;
+    
 }
 header > h1{
     padding-top: 50px;
     margin-bottom: 2vh;
     /**text-transform: uppercase;**/
     font-variant:small-caps;
-    font-size: 5vw;
+    font-size: 44px;
 }
 header > p{
     padding-bottom: 50px;
+    
 }
 header a, footer a{
     color: white;
@@ -105,7 +108,4 @@ footer > h2{
     font-variant: small-caps ;
     font-size: 1.5em;
     margin-bottom: 10px;
-}
-footer > p{
-    
 }
