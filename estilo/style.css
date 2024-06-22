@@ -75,7 +75,9 @@ section.imagem p{
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
     display: inline-block;
+    width: 40vw;
     padding: 8px; 
+    border-radius: 6px;
     text-shadow: 1px 1px black;  
 }
 section#img01{
